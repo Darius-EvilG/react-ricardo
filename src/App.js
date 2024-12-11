@@ -1,13 +1,13 @@
 
 import React from 'react';
 import Saludos from './componentes/Saludos'
+import Despedida from './componentes/Despedida'
 
 function App() {
   return (
     <div>
-      <Saludos nombre="Ricardo" />
-      <Saludos nombre="Luis" />
-      <Saludos nombre="Christian" />
+      <Saludos nombre="Carlos" />
+      <Despedida nombre="Carlos" />
     </div>
   );
 }
